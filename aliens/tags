@@ -1,0 +1,66 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Alien	.\alien.py	/^class Alien(Sprite):$/;"	c
+Alien	.\game_function.py	/^from alien import Alien$/;"	i
+Bullet	.\bullet.py	/^class Bullet(Sprite):#创建新的bullet类，并继承sprite$/;"	c
+Bullet	.\game_function.py	/^from bullet import Bullet$/;"	i
+Button	.\alien_invasion.py	/^from button import Button$/;"	i
+Button	.\button.py	/^class Button():$/;"	c
+GameStats	.\alien_invasion.py	/^from game_stats import GameStats$/;"	i
+GameStats	.\game_stats.py	/^class GameStats():$/;"	c
+Group	.\alien_invasion.py	/^from pygame.sprite import Group$/;"	i
+Settings	.\alien_invasion.py	/^from settings import Settings$/;"	i
+Settings	.\settings.py	/^class Settings():$/;"	c
+Ship	.\alien_invasion.py	/^from ship import Ship$/;"	i
+Ship	.\ship.py	/^class Ship():$/;"	c
+Sprite	.\alien.py	/^from pygame.sprite import Sprite$/;"	i
+Sprite	.\bullet.py	/^from pygame.sprite import Sprite$/;"	i
+__init__	.\alien.py	/^    def __init__(self, ai_settings, screen):$/;"	m	class:Alien
+__init__	.\bullet.py	/^    def __init__(self ,ai_settings ,screen ,ship ):$/;"	m	class:Bullet
+__init__	.\button.py	/^    def __init__(self ,ai_settings ,screen ,msg):$/;"	m	class:Button
+__init__	.\game_stats.py	/^    def __init__(self ,ai_settings):$/;"	m	class:GameStats
+__init__	.\settings.py	/^    def __init__(self):$/;"	m	class:Settings
+__init__	.\ship.py	/^    def __init__(self,ai_settings,screen):$/;"	m	class:Ship
+blitme	.\alien.py	/^    def blitme(self):$/;"	m	class:Alien
+blitme	.\ship.py	/^    def blitme(self):$/;"	m	class:Ship
+center_ship	.\ship.py	/^    def center_ship(self):$/;"	m	class:Ship
+change_fleet_direction	.\game_function.py	/^def change_fleet_direction(ai_settings ,aliens):$/;"	f
+check_aliens_bottom	.\game_function.py	/^def check_aliens_bottom(ai_settings ,stats ,screen ,ship ,aliens ,bullets):$/;"	f
+check_bullet_alien_collisions	.\game_function.py	/^def check_bullet_alien_collisions(ai_settings ,screen ,ship ,aliens ,bullets):$/;"	f
+check_edges	.\alien.py	/^    def check_edges(self):$/;"	m	class:Alien
+check_events	.\game_function.py	/^def check_events(ai_settings ,screen ,stats ,play_button ,ship ,bullets):$/;"	f
+check_fleet_edges	.\game_function.py	/^def check_fleet_edges(ai_settings ,aliens):$/;"	f
+check_keydown_events	.\game_function.py	/^def check_keydown_events(event ,ai_settings ,screen ,ship ,bullets):$/;"	f
+check_keyup_events	.\game_function.py	/^def check_keyup_events(event ,ship):$/;"	f
+check_play_button	.\game_function.py	/^def check_play_button(stats ,play_button ,mouse_x ,mouse_y):$/;"	f
+create_alien	.\game_function.py	/^def create_alien(ai_settings ,screen ,aliens ,alien_number ,row_number):$/;"	f
+create_fleet	.\game_function.py	/^def create_fleet(ai_settings ,screen ,ship ,aliens):$/;"	f
+draw_bullet	.\bullet.py	/^    def draw_bullet(self):$/;"	m	class:Bullet
+draw_button	.\button.py	/^    def draw_button(self):$/;"	m	class:Button
+font	.\button.py	/^import pygame.font$/;"	i
+get_number_aliens_x	.\game_function.py	/^def get_number_aliens_x(ai_settings, alien_width):$/;"	f
+get_number_rows	.\game_function.py	/^def get_number_rows(ai_settings ,ship_height ,alien_height):$/;"	f
+gf	.\alien_invasion.py	/^import game_function as gf$/;"	i
+prep_msg	.\button.py	/^    def prep_msg(self ,msg):$/;"	m	class:Button
+pygame	.\alien.py	/^import pygame$/;"	i
+pygame	.\alien_invasion.py	/^import pygame$/;"	i
+pygame	.\bullet.py	/^import pygame$/;"	i
+pygame	.\button.py	/^import pygame.font$/;"	i
+pygame	.\game_function.py	/^import pygame$/;"	i
+pygame	.\ship.py	/^import pygame$/;"	i
+reset_stats	.\game_stats.py	/^    def reset_stats(self):$/;"	m	class:GameStats
+run_game	.\alien_invasion.py	/^def run_game():$/;"	f
+ship_hit	.\game_function.py	/^def ship_hit(ai_settings ,stats ,screen ,ship ,aliens ,bullets):$/;"	f
+sleep	.\game_function.py	/^from time import sleep$/;"	i
+sys	.\alien_invasion.py	/^import sys$/;"	i
+sys	.\game_function.py	/^import sys$/;"	i
+update	.\alien.py	/^    def update(self):$/;"	m	class:Alien
+update	.\bullet.py	/^    def update(self):$/;"	m	class:Bullet
+update	.\ship.py	/^    def update(self):$/;"	m	class:Ship
+update_aliens	.\game_function.py	/^def update_aliens(ai_settings ,stats ,screen ,ship ,aliens ,bullets):$/;"	f
+update_bullets	.\game_function.py	/^def update_bullets(ai_settings ,screen ,ship ,aliens ,bullets):$/;"	f
+update_screen	.\game_function.py	/^def update_screen(ai_settings ,screen , stats ,ship ,aliens, bullets ,play_button):$/;"	f

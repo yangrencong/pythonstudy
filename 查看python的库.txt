@@ -1,0 +1,4 @@
+打开cmd
+输入 where python
+找到路径后打开路径 输入start
+在输入 pip list

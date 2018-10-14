@@ -1,0 +1,14 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Car	.\car.py	/^class Car():$/;"	c
+__init__	.\car.py	/^    def __init__(self ,make ,model ,year):$/;"	m	class:Car
+car	.\my_new_car.py	/^import car$/;"	i
+get_descriptive_name	.\car.py	/^    def get_descriptive_name(self):$/;"	m	class:Car
+increment_odometer	.\car.py	/^    def increment_odometer(self ,miles):$/;"	m	class:Car
+my_new_car	.\my_new_car.py	/^my_new_car = car.Car("audi" ,"a4" ,2016)$/;"	v
+read_odometer	.\car.py	/^    def read_odometer(self):$/;"	m	class:Car
+update_odometer	.\car.py	/^    def update_odometer(self,mileage):$/;"	m	class:Car
